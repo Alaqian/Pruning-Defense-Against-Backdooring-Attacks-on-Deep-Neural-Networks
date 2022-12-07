@@ -2,3 +2,4 @@ data/valid.h5
 data/test.h5
 data/bd_valid.h5
 data/bd_test.h5
+.gitignore
