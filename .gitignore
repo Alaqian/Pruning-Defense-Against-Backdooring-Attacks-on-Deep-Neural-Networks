@@ -1,0 +1,6 @@
+# These data files are ignored as they exceed the github size limits
+# Place your '.h5' data files in this /data/ directory from: https://drive.google.com/drive/folders/1jjcdL20CHWmAd9DsIdgP_B7IIEARKdSx
+data/valid.h5
+data/test.h5
+data/bd_valid.h5
+data/bd_test.h5
