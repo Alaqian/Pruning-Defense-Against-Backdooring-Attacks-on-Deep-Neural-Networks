@@ -1,4 +1,4 @@
 data/valid.h5
-data/test/h5
-plot.png
-test.py
+data/test.h5
+data/bd_valid.h5
+data/bd_test.h5
