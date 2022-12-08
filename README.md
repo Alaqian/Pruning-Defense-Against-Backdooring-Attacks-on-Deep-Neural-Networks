@@ -1,12 +1,16 @@
 # ML-for-CS-Lab-2
 
-## I. Dependencies
-   1. Python 3.6.9
-   2. Keras 2.3.1
-   3. Numpy 1.16.3
-   4. Matplotlib 2.2.2
-   5. H5py 2.9.0
-   6. TensorFlow-gpu 1.15.2
+This repository implements a pruning defense on a backdoored face recognition nueral network as described in this paper:
+[https://arxiv.org/abs/1805.12185](Fine-Pruning: Defending Against Backdooring Attacks on Deep Neural Networks)
+Kang Liu, Brendan Dolan-Gavitt, Siddharth Garg
+
+##  Dependencies
+   * Python 3.6.9
+   * Keras 2.3.1
+   * Numpy 1.16.3
+   * Matplotlib 2.2.2
+   * H5py 2.9.0
+   * TensorFlow-gpu 1.15.2
    
 ## Folder Structure   
 ```bash
