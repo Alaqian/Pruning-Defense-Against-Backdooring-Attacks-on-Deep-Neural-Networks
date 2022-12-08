@@ -1,5 +1,3 @@
-ML-for-CS-Lab-2
-=============================
 # ML-for-CS-Lab-2
 
 ## I. Dependencies
@@ -10,7 +8,7 @@ ML-for-CS-Lab-2
    5. H5py 2.9.0
    6. TensorFlow-gpu 1.15.2
    
-# Folder Structure   
+## Folder Structure   
 ```bash
 ├── data
     └── bd_test.h5  // this is poisoned test data
