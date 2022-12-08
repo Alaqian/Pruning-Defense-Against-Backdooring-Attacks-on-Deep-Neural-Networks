@@ -14,6 +14,7 @@ Kang Liu, Brendan Dolan-Gavitt, Siddharth Garg
    - [Running the program from aother Python file](#Running-the-program-from-aother-Python-file)
    - [Running the program from Command Line Interface](#Running-the-program-from-Command-Line-Interface)
    - [Arguments](#Arguments)
+- [Results](#Results)
 - [Folder Structor](#Folder-Structure)
 
 # Dependencies
@@ -99,7 +100,12 @@ y_pred = np.argmax(predictions, axis=1)
 | `--Dtest` | `-t` | `Dtest` | Path to the clean test data. Default: "data/test.h5" | 
 | `--Btest` | `-b` | `Btest` | Path to the poisoned test data.. Default: "data/bd_test.h5" | 
 | `--thresholds` | `-th` | `thresholds` | List of accuracy thresholds in percent. Default: `[2, 4, 10]`| 
-## Folder Structure   
+
+## Results
+![image](plot.png)
+
+
+## Folder Structure
 ```bash
 ├── data
     └── bd_test.h5  # this is poisoned test data
