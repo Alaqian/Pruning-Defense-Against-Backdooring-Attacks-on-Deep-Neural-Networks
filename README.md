@@ -11,8 +11,8 @@ Kang Liu, Brendan Dolan-Gavitt, Siddharth Garg
    - [Libraries](#Libraries)
    - [Dataset](#Dataset)
 - [Usage](#Usage)
-   - [Running the program from Command Line Interface](#Running-the-program-from-Command-Line-Interface)
    - [Running the program from aother Python file](#Running-the-program-from-aother-Python-file)
+   - [Running the program from Command Line Interface](#Running-the-program-from-Command-Line-Interface)
    - [Arguments](#Arguments)
 - [Folder Structor](#Folder-Structure)
 
@@ -36,7 +36,7 @@ Alternatively, you can run the program with default arguments by adding your fil
 - "valid.h5" - clean validation data
 
 # Usage
-The program can be run from [CLI](#Running-the-program-from-Command-Line-Interface) or by [standard imports](#Running-the-program-from-aother-Python-file). The default and custom arguments for the program are given in the [Arguments](#Arguments) section.
+The program can be run by [standard imports](#Running-the-program-from-aother-Python-file) or the [CLI](#Running-the-program-from-Command-Line-Interface). The default and custom arguments for the program are given in the [Arguments](#Arguments) section.
 
 ## Running the program from aother Python file
 You can run the program with default arguments:
