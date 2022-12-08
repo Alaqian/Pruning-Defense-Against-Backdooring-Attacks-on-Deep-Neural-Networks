@@ -98,7 +98,7 @@ y_pred = np.argmax(predictions, axis=1)
 | `--Dvalid` | `-v` | `Dvalid` | Path to the clean validation data. Default: "data/valid.h5" | 
 | `--Dtest` | `-t` | `Dtest` | Path to the clean test data. Default: "data/test.h5" | 
 | `--Btest` | `-b` | `Btest` | Path to the poisoned test data.. Default: "data/bd_test.h5" | 
-| `--thresholds` | `-th` | `thresholds` | List of accuracy thresholds in percent.. Default: `[2, 4, 10]`| 
+| `--thresholds` | `-th` | `thresholds` | List of accuracy thresholds in percent. Default: `[2, 4, 10]`| 
 ## Folder Structure   
 ```bash
 ├── data
