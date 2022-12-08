@@ -43,7 +43,7 @@ You can run the program with default arguments:
 ```python
 from backdoor_detector import backdoor_detector
 
-repairedNet = backdoor_detector()
+repaired_net = backdoor_detector()
 ```
 You can also provide the program with custom arguments:
 ```python
@@ -86,6 +86,7 @@ B_prime = "bd_net_prime_20_percent_threshold" # path to pruned model
 # load both models
 B = keras.models.load_model(B_path)
 B_p = keras.models.load_model(B_prime)
+repaired_net = G(B, B_p)
 predictions = repaired_net(x_data)
 y_pred = np.argmax(predictions, axis=1)
 ```
