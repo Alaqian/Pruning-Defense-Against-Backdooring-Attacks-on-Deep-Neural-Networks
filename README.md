@@ -15,7 +15,7 @@ Kang Liu, Brendan Dolan-Gavitt, Siddharth Garg
    - [Running the program from Command Line Interface](#Running-the-program-from-Command-Line-Interface)
    - [Arguments](#Arguments)
 - [Results](#Results)
-- [Folder Structor](#Folder-Structure)
+- [Folder Structure](#Folder-Structure)
 
 # Dependencies
 ## Libraries
