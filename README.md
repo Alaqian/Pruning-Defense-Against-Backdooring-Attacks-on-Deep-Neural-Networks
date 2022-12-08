@@ -104,7 +104,52 @@ y_pred = np.argmax(predictions, axis=1)
 ## Results
 ![image](plot.png)
 
+## Architecture
+The baseline DNN used for face recognition is the state-ofthe-art DeepID network that contains three shared convolutional layers followed by two parallel sub-networks that feed into the last two fully connected layers.
 
+The architecture of the model can is in the [architecture.py](architecture.py) file. A model summary and a flow diagram of the model is shown below.
+```
+___________________________________________________________________________________
+ Layer (type)                   Output Shape         Param #     Connected to                     
+===================================================================================
+ input (InputLayer)             [(None, 55, 47, 3)]  0           []                               
+                                                                                                  
+ conv_1 (Conv2D)                (None, 52, 44, 20)   980         ['input[0][0]']                  
+                                                                                                  
+ pool_1 (MaxPooling2D)          (None, 26, 22, 20)   0           ['conv_1[0][0]']                 
+                                                                                                  
+ conv_2 (Conv2D)                (None, 24, 20, 40)   7240        ['pool_1[0][0]']                 
+                                                                                                  
+ pool_2 (MaxPooling2D)          (None, 12, 10, 40)   0           ['conv_2[0][0]']                 
+                                                                                                  
+ conv_3 (Conv2D)                (None, 10, 8, 60)    21660       ['pool_2[0][0]']                 
+                                                                                                  
+ pool_3 (MaxPooling2D)          (None, 5, 4, 60)     0           ['conv_3[0][0]']                 
+                                                                                                  
+ conv_4 (Conv2D)                (None, 4, 3, 80)     19280       ['pool_3[0][0]']                 
+                                                                                                  
+ flatten (Flatten)              (None, 1200)         0           ['pool_3[0][0]']                 
+                                                                                                  
+ flatten_1 (Flatten)            (None, 960)          0           ['conv_4[0][0]']                 
+                                                                                                  
+ fc_1 (Dense)                   (None, 160)          192160      ['flatten[0][0]']                
+                                                                                                  
+ fc_2 (Dense)                   (None, 160)          153760      ['flatten_1[0][0]']              
+                                                                                                  
+ add (Add)                      (None, 160)          0           ['fc_1[0][0]',      
+                                                                  'fc_2[0][0]']                   
+                                                                                                  
+ activation (Activation)        (None, 160)          0           ['add[0][0]']                    
+                                                                                                  
+ output (Dense)                 (None, 1283)         206563      ['activation[0][0]']             
+                                                                                                  
+======================================================================================
+Total params: 601,643
+Trainable params: 601,643
+Non-trainable params: 0
+______________________________________________________________________________________
+```
+![image](img/architecture.png)
 ## Folder Structure
 ```bash
 ├── data
