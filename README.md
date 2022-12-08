@@ -9,7 +9,7 @@ Kang Liu, Brendan Dolan-Gavitt, Siddharth Garg
 - [Dependencies](#Dependencies)
 - [Folder Structor](#Folder-Structure)
 
-#  Dependencies
+## Dependencies
 * Python 3.6.9
 * Keras 2.3.1
 * Numpy 1.16.3
@@ -17,7 +17,7 @@ Kang Liu, Brendan Dolan-Gavitt, Siddharth Garg
 * H5py 2.9.0
 * TensorFlow-gpu 1.15.2
    
-# Folder Structure   
+## Folder Structure   
 ```bash
 ├── data
     └── bd_test.h5  # this is poisoned test data
