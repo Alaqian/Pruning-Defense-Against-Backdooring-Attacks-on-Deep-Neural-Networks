@@ -6,16 +6,26 @@ This repository implements a pruning defense on a backdoored face recognition nu
 
 Kang Liu, Brendan Dolan-Gavitt, Siddharth Garg
 
+## Contents
 - [Dependencies](#Dependencies)
+   - [Libraries](#Libraries)
+   - [Dataset](#Dataset)
+- [Usage](#Usage)
+   - [Running from Command Line Interface](#Download-Dataset)
+   - [Running from aother Python](#Download-Dataset)
+- [Arguments](#Arguments)
+- [Architecture](#Architecture)
 - [Folder Structor](#Folder-Structure)
 
-## Dependencies
+# Dependencies
+## Libraries
 * Python 3.6.9
 * Keras 2.3.1
 * Numpy 1.16.3
 * Matplotlib 2.2.2
 * H5py 2.9.0
 * TensorFlow-gpu 1.15.2
+## Dataset
    
 ## Folder Structure   
 ```bash
