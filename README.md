@@ -25,8 +25,14 @@ Kang Liu, Brendan Dolan-Gavitt, Siddharth Garg
 * Matplotlib 2.2.2
 * H5py 2.9.0
 * TensorFlow-gpu 1.15.2
+
 ## Dataset
-   
+Download the validation and test datasets from [here](https://drive.google.com/drive/folders/1jjcdL20CHWmAd9DsIdgP_B7IIEARKdSx) and store them under data/ director
+
+[File](data/data.txt)
+
+[Folder](data/)
+
 ## Folder Structure   
 ```bash
 ├── data
