@@ -15,6 +15,7 @@ Kang Liu, Brendan Dolan-Gavitt, Siddharth Garg
    - [Running the program from Command Line Interface](#Running-the-program-from-Command-Line-Interface)
    - [Arguments](#Arguments)
 - [Results](#Results)
+- [Architecture](#Architecture)
 - [Folder Structure](#Folder-Structure)
 
 # Dependencies
@@ -158,6 +159,8 @@ ________________________________________________________________________________
     └── data.txt  # instructions to download data
     └── test.h5  # clean test data
     └── valid.h5 # clean validation data
+├── img
+    └── architecture.png # image of the model architecture
 ├── models
     └── bd_net.h5 # backdoored neural network classifier with N classes
     └── bd_net_prime_2_percent_threshold # repaired network at 2% threshold used with "bd_net.h5"
