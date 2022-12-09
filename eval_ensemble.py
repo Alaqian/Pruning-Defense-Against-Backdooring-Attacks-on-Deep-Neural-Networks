@@ -5,6 +5,8 @@ import numpy as np
 from utils import *
 
 """
+Modified eval.py that uses 4 arguments instead 3. Argument 3 is the backdoored network and Argumnet 4 is the repaired network that can be generated from backdoor.py
+
 - eval.py uses just the model provided:
 model = B
 prediction = model(x_data)
