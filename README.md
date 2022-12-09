@@ -171,7 +171,9 @@ ________________________________________________________________________________
 ├── architecture.py # DNN architecture
 └── backdoor_detector.py # program the implements the pruning defense on backdoored network
 └── eval.py # evaluation script
+└── eval_ensemble.py # evaluation script that can be used with ensemble network
 └── Lab2_report.docx # A short report with model accuracy and ASR
+└── Lab2_report.pdf # A short report with model accuracy and ASR
 └── performanc.csv # data recorded during pruning
 └── plot.png # model accuracy and ASR plot against fraction neurons pruned
 └── README.md # 
