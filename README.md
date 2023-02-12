@@ -1,4 +1,4 @@
-# ML-for-CS-Lab-2
+# Pruning Defense Against Backdooring Attacks on Deep Neural Networks
 
 This repository implements a pruning defense on a backdoored face recognition nueral network as described in this paper:
 
